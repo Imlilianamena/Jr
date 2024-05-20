@@ -1,38 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* Estilos para la imagen */
-        .img-container {
-         width: 300px;
-         height: 200px;
-         overflow: hidden; /* Ocultar el desbordamiento */
-        }
-        /* Interacción al pasar el cursor sobre la imagen */
-        .img-container:hover img {
-         transform: scale(1.1); /* Aumentar el tamaño de la imagen */
-         transition: transform 0.3s ease; /* Transición suave del cambio de tamaño */
-        }
-        </style>
-        
-        
-</head>
-<body>
-    <div class="jr">
-      <h1 class="junior">junior es gei</h1> 
-      <h1>junior es gei x2</h1>
-    </div> 
-    <a href="https://www.youtube.com/" target="_blank">youtube</a>
-    <input type="text" placeholder="Ingrese su nombre">
 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Estilos para la imagen */
+    .img-container {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      /* Ocultar el desbordamiento */
+    }
+
+    /* Interacción al pasar el cursor sobre la imagen */
+    .img-container:hover img {
+      transform: scale(1.1);
+      /* Aumentar el tamaño de la imagen */
+      transition: transform 0.3s ease;
+      /* Transición suave del cambio de tamaño */
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="jr">
+    <h1 class="junior">junior es gei</h1>
+    <h1>junior es gei x2</h1>
+  </div>
+  <a href="https://www.youtube.com/" target="_blank">youtube</a>
+  <input type="text" placeholder="Ingrese su nombre">
+
+
   <!-- Contenedor de imagen con interacción -->
- <div class="img-container">
-    <img src="imagen.jpg" alt="Imagen">
- </div>
-    
+  <div class="img-container">
+    <img src="" alt="Imagen">
+  </div>
+  <script>
+    // let ola = "hola lili"
+    // console.log(ola)
+    // let num1 = 2;
+    // let num2 = 5;
+    // console.log(num1+num2)
+    // //cuando pongas un numero que la consola te diga que
+    // //numero es
+    // let num = 5
+    // console.log("El numero es: "+num)
+    // //decir cuando el numero es mayor de o ig2
+    // let mayor = 2;
+    // let numero = 1;
+    // if (numero>mayor) {
+    //   console.log("El numero es mayor a: "+mayor)
+    // } else if(numero==mayor){
+    //   console.log("El numero es igual a: "+mayor)
+    // } else{
+    //   console.log("El numero es menor a: "+mayor)
+    // }
+    // let variableGlobal = 2;
+    // function mostrarNombre() {
+    //   var variableLocal = 2;
+    //   let nombre = "Liliana"
+    //   console.log(nombre)
+    //   console.log(variableGlobal+variableLocal);
+    // }
+    // mostrarNombre();
+    // console.log(variableGlobal)
+    // console.log(variableLocal)
+// let globalVar = 10
+// function myFunction(){
+//   let localvar = 20;
+//   console.log(globalVar,localvar)
+// }
+// myFunction();
+// console.log(globalVar)
+// console.log(localvar)
+// let num1 = 2;
+// let num2 = 4;
+// console.log(num1+num2)
+// console.log(num1*num2)
+// if(num1>num2){
+//   console.log(num1,"es mayor que ",num2)
+// } else{
+//   console.log(num1,"no es mayor que ",num2)
+// }
+// let boolVar = true;
+// let resultado = boolVar&&(num1>num2)
+// console.log(resultado);
+// let ternaryResult = (num1>num2)?"Es mayor":"Es menor o igual"
+// console.log(ternaryResult)
+// let person ={
+//   name : "Liliana",
+//   age : "18",
+//   city : "Ocaña",
+// }
+// console.log(name)
+// let property = "name"
+// console.log("name", person[property]);
+// console.log("El tipo person es un:",typeof person)
+// console.log("El tipo de person.name es:", typeof person.name)
+// console.log("El tipo de la variable x es:", typeof x)
+// function Car(make, model){
+//   this.make = make;
+//   this.model = model;
+// }
+// let myCar = new Car("Toyota","Corolla");
+// console.log(myCar instanceof Car)
+// let arr =[]
+// let str = "Hola"
+// console.log(Array.isArray(arr))
+// console.log("El tipo de arr es: ",typeof arr)
+// console.log("El tipo de str es:",typeof str)
+
+// let firstName = "Liliana"
+// let lastName = "Mena"
+// let fullName ="firstName" + "" + "lastName"
+// console.log(fullName)
+// console.log(firstName==lastName)
+// console.log(firstName===lastName)
+// console.log(firstName!=lastName)
+// console.log(firstName!==lastName)
+// console.log(firstName<lastName)
+// console.log(firstName>lastName)
+// console.log(firstName<=lastName)
+// console.log(firstName>=lastName)
+
+// let x = 10
+// console.log(x+=5)
+// console.log(x-=5)
+// console.log(x*=5)
+// console.log(x/=5)
+// console.log(x**2)
+function checkRange(num) {
+    console.log("El número", num, "está dentro del rango 1 a 10 (inclusive):", (num >= 1 && num <= 10));
+}
+checkRange(5); 
+checkRange(15); 
+
+  </script>
 </body>
+
 </html>
+
+Crear una función llamada checkRange que tome un parámetro num.
+Dentro de la función, utilizar el operador de coma para combinar múltiples
+expresiones. Verificar si num está entre 1 y 10 (inclusive) utilizando los operadores
+lógicos && y ||, y mostrar el resultado por consola.
+
