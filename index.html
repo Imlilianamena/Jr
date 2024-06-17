@@ -133,19 +133,129 @@
 // console.log(x*=5)
 // console.log(x/=5)
 // console.log(x**2)
-function checkRange(num) {
-    console.log("El número", num, "está dentro del rango 1 a 10 (inclusive):", (num >= 1 && num <= 10));
-}
-checkRange(5); 
-checkRange(15); 
 
-  </script>
+// function checkRange(num) {
+//     console.log("El número", num, "está dentro del rango 1 a 10 (inclusive):", (num >= 1 && num <= 10));
+// }
+// checkRange(5); 
+// checkRange(15); 
+
+// let horas = 40
+// let salario = 2000
+// let horasextra = horas-40
+// let salariototal 
+
+// if (horas>40){
+//   salariototal = ((salario/2)*horasextra)+(horas*salario)
+// } else if (horas<=40){
+//   salariototal = (salario*horas)
+// } else{
+//   console.log ("Error")
+// }
+// console.log ("El salario total es: ",salariototal)
+
+// let num ="3"
+// switch (num){
+//   case "1":
+//     console.log ("Enero");
+//     break;
+//   case "2":
+//     console.log ("Febrero");
+//     break;
+//   case "3":
+//     console.log ("Marzo");
+//     break;
+//   case "4":
+//     console.log ("Abril");
+//     break;
+//   case "5":
+//     console.log ("Mayo");
+//     break;
+//   case "6":
+//     console.log ("Junio");
+//     break;
+//   case "7":
+//     console.log ("Julio");
+//     break;
+//   case "8":
+//     console.log ("Agosto");
+//     break;
+//   case "9":
+//     console.log ("Septiembre");
+//     break;
+//   case "10":
+//     console.log ("Octubre");
+//     break;
+//   case "11":
+//     console.log ("Noviembre");
+//     break;
+//   case "12":
+//     console.log ("Diciembre");
+//     break;
+//   default:
+//     console.log ("ERROR")
+// }
+
+// let num= 1
+// let num2= 5
+// while(num<=num2){
+//   console.log(num);
+//   num++
+// }
+
+// let n = 5
+// let factorial = 1
+// let i = 1
+// do{
+//   factorial *= i;
+//   i++
+// }while (i <= n)
+// console.log ("El factorial de ",n," es: " factorial)
+
+// let inicio= 1
+// let fin= 50
+// let pares= 0
+// let impares= 0
+// for (let i=inicio; i<=fin; i++){
+//   if (i % 2 === 0){
+//     pares++;
+//   }else{
+//     impares++;
+//   }
+// } 
+// console.log (pares,impares)
+
+// let celsius = 26
+// function convertirCelsiusAFahrenheit(celsius){
+//   let fahrenheit= (celsius*9/5)+32
+//   console.log (fahrenheit)
+// }
+// convertirCelsiusAFahrenheit(celsius)
+
+// let myArray = [];
+// let numeros = [1,2,3,4,5,6,7,8];
+// function numerosp(numeros){
+//   for (let i=0; i <numeros.length; i++){
+//     if (i % 2 === 0){
+//       console.log (numeros[i])
+//     }else if(i%2!=0){
+//       console.log (numeros[i])
+//     }
+//   }
+//   return numeros;
+
+// }
+// console.log (numerospares[nums])
+
+function obtenerNumerosPares(array) {
+    let numerosPares = array.filter(numero => numero % 2 === 0);
+    return numerosPares;
+}
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let pares = obtenerNumerosPares(numeros);
+console.log("Números pares:", pares);
+
+</script>
 </body>
 
 </html>
-
-Crear una función llamada checkRange que tome un parámetro num.
-Dentro de la función, utilizar el operador de coma para combinar múltiples
-expresiones. Verificar si num está entre 1 y 10 (inclusive) utilizando los operadores
-lógicos && y ||, y mostrar el resultado por consola.
-
